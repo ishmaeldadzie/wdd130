@@ -15,9 +15,17 @@ div {
     padding: 1rem;
 }
 
+em {
+    font-size: x-small;
+}
+
 span {
     color: navy;
     background-color: lightblue;
+
+    div {
+        margin: 1rem;
+    }
 }
 
 code {
