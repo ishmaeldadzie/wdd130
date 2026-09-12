@@ -21,6 +21,11 @@ main {
     width: 400px;
     margin: 0 auto;
 
+    main img {
+        width: 150px;
+        height: auto;
+
+    }
 }
 
 h1 {

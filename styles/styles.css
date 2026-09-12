@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -7,6 +13,10 @@ nav a {
     color: greenyellow;
     display: block;
     padding: 20px;
+}
+
+main {
+    min-width: 10px;
 }
 
 h1 {
@@ -22,5 +32,29 @@ img {
 }
 
 p {
+    padding: 0;
+    margin: 10px;
+}
+
+aside {
+    width: auto;
+    margin: 10px;
+    border: 1px solid black;
     padding: 10px;
+    background: gainsboro;
+    color: black;
+
+    img {
+        width: 200px;
+        height: auto;
+
+    }
+
+}
+
+footer {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: center;
+
 }
