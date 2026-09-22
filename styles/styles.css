@@ -35,11 +35,11 @@ p {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 
     aside img {
         width: 200px;
         height: auto;
-        position: relative;
 
     }
 
